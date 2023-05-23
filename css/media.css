@@ -1,0 +1,74 @@
+
+
+@media screen and (max-width: 700px){
+    .sub-title{
+        width: 85%;
+    }
+    .navigator-texts {
+        top: 22%;
+        left: 43%;
+    }
+    .intro-about-desc{
+        padding-right: 1rem;
+    }
+    
+        
+}
+
+@media screen and (max-width: 500px) {
+    .top-nav{
+        color: #fff;
+        font-size: 10px;
+    }
+    .top-nav-middle{
+        font-size: 15px;
+    }
+    .navigationbar{
+        height: 6rem;
+    }
+    .btn-appointement i{
+        font-size: 10px !important;
+    }
+    .marquee-link{
+        padding: 0 5px;
+    }
+    .marquee-link{
+        font-size: 1rem;
+    }
+    .about-text{
+        font-size: .8rem;
+    }
+    .navigator-texts {
+    top: 7%;
+    left: 25%;
+
+    }
+    .gallery-img-thumb{
+        width: 50%;
+    }
+    
+.marquee-university-img {
+    height: 20px;
+}
+}
+@media(min-width: 480.6px) and (max-width: 575.5px) {
+    .owl-carousel .owl-item .card .name {
+        left: 24%
+    }
+}
+
+@media(max-width: 360px) {
+    .owl-carousel .owl-item .card .name {
+        left: 30%
+    }
+}
+@media only screen and (max-width: 991px) {
+    .contact_info_item {
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+    .contact_info_item:last-child {
+        margin-bottom: 0px
+    }
+}
