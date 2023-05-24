@@ -101,10 +101,10 @@
                 <a class="nav-link" href="#classes">Classes</a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link" href="services.html">Our&nbsp;Services</a>
+                <a class="nav-link" href="#services">Our&nbsp;Services</a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link" href="testimonials.html">Testimonials</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact&nbsp;us</a>
@@ -464,7 +464,7 @@
           </div>
         </div>
       </div>
-      <div class="home-service py-4 border-bottom">
+      <div class="home-service py-4 border-bottom" id="services">
         <div class="container">
           <div class="row">
             <div class="main-title">Our Services</div>
@@ -489,9 +489,7 @@
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum....
                   </div>
-                  <div class="text-center mt-2">
-                    <button class="btn btn-sm btn-primary">Learn More</button>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -516,9 +514,7 @@
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum....
                   </div>
-                  <div class="text-center mt-2">
-                    <button class="btn btn-sm btn-primary">Learn More</button>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -543,9 +539,7 @@
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum....
                   </div>
-                  <div class="text-center mt-2">
-                    <button class="btn btn-sm btn-primary">Learn More</button>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -554,7 +548,7 @@
       </div>
       <div class="home-gallery py-4" id="gallery">
         <div class="container">
-          <h2 class="main-title my-4">Gallery</h2>
+          <h2 class="main-title my-4 text-white">Gallery</h2>
           <div class="gallery">
             <a href="img/gal1.jpeg" class="big" rel="rel1">
               <img
@@ -583,15 +577,6 @@
               />
             </a>
 
-            <a href="img/gal4.jpeg" class="big" rel="rel2">
-              <img
-                src="img/gal4.jpeg"
-                alt=""
-                class="gallery-img-thumb"
-                title="Image 4"
-              />
-            </a>
-
             <a href="img/gal5.jpeg" class="big" rel="rel2">
               <img
                 src="img/gal5.jpeg"
@@ -613,12 +598,12 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <div class="home-testi">
+      <div class="home-testi" id="contact">
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
-              <div class="main-title text-white mt-3">
-                Fell Free To Message Us
+              <div class="main-title mt-3">
+                Contacts
               </div>
               <div class="contact-container d-flex align-items-center mb-3">
                 <div class="contact-logo"><i class="fas fa-phone"></i></div>
@@ -681,22 +666,25 @@
 
     <div class="footer py-4">
       <div class="container">
-        <div class="row">
-          <div class="col-6 col-sm-3">
+        <div class="row align-items-center">
+          <div class="col-6 col-sm-4">
             <ul class="footer-content-list">
               <li class="footer-header mb-1">About Us</li>
               <li class="footer-item">
-                <a href="#" class="footer-link">About Harvard</a>
+                <a href="#about" class="footer-link">About Harvard</a>
               </li>
               <li class="footer-item">
-                <a href="#" class="footer-link">Our Services</a>
+                <a href="#services" class="footer-link">Our Services</a>
               </li>
               <li class="footer-item">
-                <a href="#" class="footer-link">History</a>
+                <a href="#classes" class="footer-link">Classes</a>
+              </li>
+              <li class="footer-item">
+                <a href="#gallery" class="footer-link">Gallery</a>
               </li>
             </ul>
           </div>
-          <div class="col-6 col-sm-3">
+          <div class="col-6 col-sm-4">
             <ul class="footer-content-list">
               <li class="footer-header mb-1">Study Destination</li>
               <li class="footer-item">
@@ -713,24 +701,12 @@
               </li>
             </ul>
           </div>
-          <div class="col-6 col-sm-3">
-            <ul class="footer-content-list">
-              <li class="footer-header mb-1">Company</li>
-              <li class="footer-item">
-                <a href="#" class="footer-link">blogs</a>
-              </li>
-              <li class="footer-item">
-                <a href="#" class="footer-link">news</a>
-              </li>
-              <li class="footer-item">
-                <a href="#" class="footer-link">events</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-6 col-sm-3">
+          <div class="col-6 col-sm-4">
             <ul class="footer-content-list">
               <li class="footer-info mt-3">Call Us At</li>
-              <li class="footer-link">9840897342</li>
+              <li class="footer-link">+977-9841390631</li> 
+              <li class="footer-link">+977-9823298479</li>
+              <li class="footer-link">01-5907687</li>
               <li class="footer-info mt-3">Office Hours</li>
               <li class="footer-link">Sun - Friday : 9:00 - 17:00</li>
               <li class="footer-link">Closed on weekends</li>
@@ -772,9 +748,6 @@
             items: 4,
           },
         },
-      });
-      var gallery = $(".gallery a").simpleLightbox({
-        sourceAttr: "href",
       });
     </script>
   </body>
