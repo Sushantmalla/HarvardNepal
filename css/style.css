@@ -18,7 +18,7 @@
   font-size: 14px !important;
 }
 .logo-img {
-  width: 10rem;
+  width: 4rem;
 }
 .nav-link {
   font-size: 16px;
@@ -26,7 +26,7 @@
   font-weight: 500 !important;
 }
 .bg-nav {
-  background-color: #563708;
+  background-color: #355fb5;
   /* #086196; */
 }
 .top-nav-left {
@@ -249,7 +249,7 @@
   color: #9c9b9b;
 }
 .footer {
-  background-color: #563708;
+  background-color: #355fb5;
   /* #0168a5; */
   color: #fff;
 }
@@ -599,4 +599,9 @@ fieldset {
 
 .h-88 {
   max-height: 88vh;
+}
+
+.contact-logo {
+  color: #8e3535;
+  font-size: 1.5rem;
 }
